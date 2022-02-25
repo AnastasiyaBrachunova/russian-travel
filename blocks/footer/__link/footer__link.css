@@ -1,0 +1,27 @@
+.footer__link{
+    width: min-content;
+    max-height: 18px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 112%;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 18px 0 0;
+}
+.footer__link:nth-child(5){
+    margin: 0;
+}
+@media (max-width: 768px){
+    .footer__link{
+        font-size: calc(100vw/48);
+    }
+}
+@media (max-width: 320px){
+    .footer__link{
+        width: min-content;
+        max-height: 24px;
+        font-size: 24px;
+        line-height: 100%;
+        margin: 0 0 32px 0;
+    }
+}

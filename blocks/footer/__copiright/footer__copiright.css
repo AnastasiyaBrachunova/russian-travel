@@ -1,0 +1,24 @@
+.footer__copiright{
+    max-width: 220px;
+    max-height: 16px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+@media (max-width: 768px){
+    .footer__copiright{
+        font-size: calc(100vw/55);
+    }
+}
+@media (max-width: 320px){
+    .footer__copiright{
+        width: max-content;
+        max-height: 14px;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: left;
+    }
+}
