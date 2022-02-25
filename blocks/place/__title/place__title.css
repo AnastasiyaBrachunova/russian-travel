@@ -19,7 +19,7 @@
         max-height: 92px;
         font-size: 42px;
         line-height: 110%;
-        vertical-align: bottom;    
+        vertical-align: bottom;
     }
 }
 @media (max-width: 320px){
@@ -28,7 +28,7 @@
         max-height: 35px;
         margin: 0 16px;
         font-size: 32px;
-        line-height: 109%; 
-        text-align: left;       
+        line-height: 109%;
+        text-align: left;
     }
 }

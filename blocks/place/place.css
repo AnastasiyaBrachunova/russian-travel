@@ -1,5 +1,4 @@
 .place {
-
     max-width: 984px;
     margin: 0 auto 80px auto;
     display: grid;
@@ -21,7 +20,7 @@
 @media (max-width: 768px){
     .place{
         margin: 0 0 73px 0;
-        column-gap: 28px;  
+        column-gap: 28px;
     }
     .place:nth-child(1){
         min-height: 581px;
@@ -42,8 +41,8 @@
 @media (max-width: 320px){
     .place{
         width:100%;
-        grid-template-rows: 35px 46px 320px 1fr;   
-        grid-template-columns: 320px;  
+        grid-template-rows: 35px 46px 320px 1fr;
+        grid-template-columns: 320px;
         row-gap: 32px;
         margin: 0 0 50px 0;
     }
