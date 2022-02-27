@@ -1,12 +1,12 @@
-.place__box-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 100%;
-    align-self: flex-start;
+.place__box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  align-self: flex-start;
 }
-@media (max-width: 320px){
-    .place__box-text{
-       margin: 0 16px;
-    }
+@media (max-width: 540px) {
+  .place__box-text {
+    margin: 0 16px;
+  }
 }

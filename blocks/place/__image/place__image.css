@@ -1,6 +1,21 @@
-.place__image{
-    align-self: flex-start;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: top;
+.place__image {
+  align-self: flex-start;
+  max-width: 460px;
+  object-fit: contain;
+  object-position: top;
+}
+@media (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+@media (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+@media (max-width: 540px) {
+  .place__image {
+    max-width: 320px;
+  }
 }

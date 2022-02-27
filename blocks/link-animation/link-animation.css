@@ -1,5 +1,5 @@
-.link-animation:hover{ 
-    opacity: 0.4;
-    transition: 0.35s linear 0.001s;
-    cursor: pointer;
-} 
+.link-animation:hover {
+  opacity: 0.8;
+  transition: 0.35s linear 0.001s;
+  cursor: pointer;
+}

@@ -1,10 +1,13 @@
-.place__url-heading{
-    max-width: 456px;
-    max-height: 12px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 2px;
-    text-align: left;
+.place__url-heading {
+  max-width: 100%;
+  max-height: 12px;
+  margin: 0 0 12px;
+  text-align: left;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: rgba(170, 170, 170, 1);
 }
