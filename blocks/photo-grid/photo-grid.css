@@ -6,6 +6,8 @@
   grid-auto-flow: row;
   margin: 0 auto;
   gap: 16px;
+  list-style-type: none;
+  padding: 0;
 }
 @media (max-width: 1200px) {
   .photo-grid {

@@ -1,12 +1,11 @@
 .cover__title {
   max-width: 560px;
-  max-height: 152px;
   font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
   text-align: center;
-  margin-bottom: 32px;
+  margin: 0 0 32px 0;
   color: #ffffff;
   opacity: none;
 }
@@ -18,7 +17,6 @@
 @media (max-width: 540px) {
   .cover__title {
     width: 288px;
-    max-height: 70px;
     font-size: 32px;
     line-height: 109%;
     margin: 0 auto 16px;

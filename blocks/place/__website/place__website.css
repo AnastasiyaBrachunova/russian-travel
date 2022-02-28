@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: flex-end;
   max-width: 456px;
-  min-height: 46px;
 }
 @media (max-width: 540px) {
   .place__website {

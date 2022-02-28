@@ -1,6 +1,5 @@
 .cover__subtitle {
   max-width: 360px;
-  max-height: 66px;
   font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 18px;
@@ -17,7 +16,6 @@
 @media (max-width: 540px) {
   .cover__subtitle {
     max-width: 288px;
-    max-height: 48px;
     font-size: 14px;
     line-height: 114%;
   }

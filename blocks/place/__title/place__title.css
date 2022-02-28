@@ -17,7 +17,6 @@
 @media (max-width: 768px) {
   .place__title {
     max-width: 340px;
-    max-height: 92px;
     font-size: 42px;
     line-height: 110%;
     vertical-align: bottom;
@@ -26,7 +25,6 @@
 @media (max-width: 540px) {
   .place__title {
     max-width: 100%;
-    max-height: 35px;
     margin: 0 16px;
     font-size: 32px;
     line-height: 109%;

@@ -9,7 +9,6 @@
   text-transform: uppercase;
   margin: 8px 0 0;
   align-self: flex-start;
-  word-break: break-all;
 }
 @media (max-width: 768px) {
   .lead__caption {

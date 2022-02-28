@@ -1,5 +1,8 @@
 .header__lang-switch {
-  display: flex;
   margin: 0;
-  list-style: none;
+  padding: 0;
+  list-style-type:none;
+  grid-template-columns: repeat(2, 50%);
+  grid-auto-rows: auto;
+  column-gap: 18px;
 }
