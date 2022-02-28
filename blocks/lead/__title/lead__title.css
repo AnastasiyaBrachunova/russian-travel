@@ -1,7 +1,7 @@
 .lead__title {
   max-width: 720px;
   margin: 0;
-  font-family: Inter;
+  font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 104%;
@@ -10,13 +10,11 @@
 @media (max-width: 768px) {
   .lead__title {
     font-size: calc(100vw / 8);
-    height: auto;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 320px) {
   .lead__title {
     max-width: 288px;
-    min-height: 88px;
     line-height: 44px;
   }
 }

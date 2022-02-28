@@ -23,8 +23,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2A2C2F;
+  opacity: 0.3;
   z-index: -1;
+
 }
 .cover__link:hover {
   background-color: #2a2c2f;

@@ -1,7 +1,6 @@
-.footer__copiright {
+.footer__copyright {
   max-width: 220px;
-  max-height: 16px;
-  font-family: Inter;
+  font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 114%;
@@ -10,16 +9,14 @@
   color: #ffffff;
 }
 @media (max-width: 768px) {
-  .footer__copiright {
+  .footer__copyright {
     font-size: calc(100vw / 55);
   }
 }
 @media (max-width: 540px) {
-  .footer__copiright {
-    width: max-content;
-    max-height: 14px;
+  .footer__copyright {
     font-size: 14px;
-    line-height: 14px;
+    line-height: 100%;
     text-align: left;
     margin: 48px 0 0;
   }

@@ -1,7 +1,7 @@
 .place__paragraph {
   max-width: 100%;
   height: min-content;
-  font-family: Inter;
+  font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

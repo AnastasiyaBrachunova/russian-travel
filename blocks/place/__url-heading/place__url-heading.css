@@ -3,9 +3,10 @@
   max-height: 12px;
   margin: 0 0 12px;
   text-align: left;
-  font-family: Inter;
+  font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
+  text-transform: uppercase;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;

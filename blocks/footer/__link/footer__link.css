@@ -1,7 +1,7 @@
 .footer__link {
   width: min-content;
   max-height: 18px;
-  font-family: Inter;
+  font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 112%;
@@ -9,7 +9,7 @@
   color: #ffffff;
   margin: 0 18px 0 0;
 }
-.footer__link:nth-child(5) {
+.footer__link:last-child {
   margin: 0;
 }
 @media (max-width: 768px) {

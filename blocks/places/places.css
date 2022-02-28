@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   max-width: 984px;
-  min-height: 3392px;
   margin: 92px auto;
   padding: 0;
   list-style-type: none;
@@ -11,20 +10,17 @@
 @media (max-width: 1200px) {
   .places {
     width: 100%;
-    min-height: 3292px;
   }
 }
 @media (max-width: 768px) {
   .places {
     max-width: 720px;
-    min-height: 2808px;
     margin: 76px auto 102px;
   }
 }
 @media (max-width: 540px) {
   .places {
     width: 100%;
-    min-height: 5177px;
     margin: 64px 0 66px;
   }
 }
