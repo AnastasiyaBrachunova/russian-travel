@@ -7,6 +7,7 @@
   text-align: center;
   color: #ffffff;
   margin: 0 auto;
+  margin-top: 10px;
 }
 @media (max-width: 768px) {
   .cover__subtitle {
@@ -15,6 +16,7 @@
 }
 @media (max-width: 540px) {
   .cover__subtitle {
+    margin: 0 auto 33px;
     max-width: 288px;
     font-size: 14px;
     line-height: 114%;

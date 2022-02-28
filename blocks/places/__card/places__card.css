@@ -1,26 +1,24 @@
-.places {
+.places__card {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 984px;
-  margin: 92px auto;
+  margin: 0;
   padding: 0;
   list-style-type: none;
 }
 @media (max-width: 1200px) {
-  .places {
+  .places__card {
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-  .places {
+  .places__card {
     max-width: 720px;
-    margin: 76px auto 102px;
   }
 }
 @media (max-width: 540px) {
-  .places {
-    width: 100%;
-    margin: 64px 0 66px;
+  .places__card {
+    max-width: 320px;
   }
 }

@@ -1,17 +1,11 @@
 .place__paragraph {
-  max-width: 100%;
-  height: min-content;
+  max-width: 484px;
   font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
   margin: 0;
-}
-@media (max-width: 1024px) {
-  .place__paragraph {
-    font-size: calc(100vw / 71);
-  }
 }
 @media (max-width: 768px) {
   .place__paragraph {
@@ -21,7 +15,6 @@
 }
 @media (max-width: 540px) {
   .place__paragraph {
-    max-width: 1005;
     font-size: 16px;
     line-height: 163%;
   }

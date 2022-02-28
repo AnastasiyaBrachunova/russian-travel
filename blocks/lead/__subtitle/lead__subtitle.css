@@ -13,14 +13,10 @@
     margin: 32px 0 56px;
   }
 }
-@media (max-width: 768px) {
-  .lead__subtitle {
-    font-size: calc(100vw / 22.4);
-  }
-}
 @media (max-width: 320px) {
   .lead__subtitle {
     max-width: 288px;
+    font-size: 16px;
     line-height: 125%;
     margin: 16px auto 40px;
   }

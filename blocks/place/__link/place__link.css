@@ -1,10 +1,10 @@
 .place__link {
-  max-width: 456px;
+  max-width: 100%;
   font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
-  text-decoration-line: underline;
+  line-height: 122%;
+  text-decoration: underline;
   color: #ffffff;
 }

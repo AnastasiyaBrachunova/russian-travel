@@ -1,5 +1,6 @@
 .footer__copyright {
   max-width: 220px;
+  margin: 0;
   font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 14px;
