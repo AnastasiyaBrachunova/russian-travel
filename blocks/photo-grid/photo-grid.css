@@ -22,7 +22,7 @@
     max-width: 720px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    gap: 16px;
+    gap: 12px;
   }
 }
 @media (max-width: 540px) {
@@ -30,6 +30,6 @@
     max-width: 288px;
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: 288px;
-    row-gap: 12px;
+    row-gap: 9px;
   }
 }

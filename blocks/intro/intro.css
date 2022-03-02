@@ -4,22 +4,22 @@
   align-items: stretch;
   justify-content: space-between;
   max-width: 690px;
-  margin: 92px 394px 92px 100px;
+  margin: 92px 394px 89px 100px;
 }
 @media (max-width: 1200px) {
   .intro {
-    margin: 88px 248px 92px 0;
+    margin: 88px 248px 89px 0;
   }
 }
 @media (max-width: 768px) {
   .intro {
     max-width: 720px;
-    margin: 88px auto;
+    margin: 92px auto 87px;
   }
 }
 @media (max-width: 540px) {
   .intro {
     max-width: 288px;
-    margin: 86px auto;
+    margin: 60px auto 65px;
   }
 }

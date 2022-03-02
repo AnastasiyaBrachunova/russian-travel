@@ -3,24 +3,27 @@
   font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: calc(100vw / 71);
   line-height: 163%;
   margin: 0;
+}
+@media (max-width: 1200px) {
+  .place__paragraph {
+    font-size: calc(100vw / 57);
+  }
 }
 @media (max-width: 768px) {
   .place__paragraph {
     font-size: calc(100vw / 48);
-    line-height: 163%;
   }
 }
 @media (max-width: 540px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 163%;
   }
 }
 .place__paragraph:nth-child(1) {
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 @media (max-width: 768px) {
   .place__paragraph:nth-child(1) {

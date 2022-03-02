@@ -3,24 +3,25 @@
   flex-direction: column;
   align-items: center;
   max-width: 984px;
-  margin: 92px auto;
+  margin: 89px auto;
   padding: 0;
   list-style-type: none;
 }
 @media (max-width: 1200px) {
   .places {
-   max-width: 928px;
+    margin: 85px auto 92px;
+    max-width: 928px;
   }
 }
 @media (max-width: 768px) {
   .places {
     max-width: 720px;
-    margin: 76px auto 102px;
+    margin: 82px auto 70px;
   }
 }
 @media (max-width: 540px) {
   .places {
     max-width: 320px;
-    margin: 64px 0 66px;
+    margin: 60px 0 40px;
   }
 }

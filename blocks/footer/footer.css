@@ -2,13 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: calc(100% - 48px*2);
-  margin: 82px auto 34px;
+  max-width: 1184px;
+  margin: 95px auto 20px;
+}
+@media (max-width: 1200px) {
+  .footer {
+    width: calc(100% - 48px*2);
+  }
 }
 @media (max-width: 768px) {
   .footer {
     width: calc(100% - 24px*2);
-    margin: 118px auto;
+    margin: 84px auto 15px;
   }
 }
 @media (max-width: 540px) {
