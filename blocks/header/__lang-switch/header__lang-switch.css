@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: row;
   margin: 0;
-  padding: 0;
+  padding: 0 0 5px 0;
   list-style-type: none;
 }
 @media (max-width: 540px) {
   .footer {
     margin: 0 0 7px 0;
+    padding-bottom: 6px;
   }
 }

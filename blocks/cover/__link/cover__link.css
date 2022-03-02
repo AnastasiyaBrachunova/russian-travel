@@ -10,9 +10,9 @@
   justify-content: center;
   text-decoration: none;
   width: 100%;
-  height: calc(100vw / 1.73);
+  height: calc(100vw / 1.7);
   z-index: 0;
-  background-image: url(/image/cover-trains.jpg);
+  background-image: url(../../../image/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

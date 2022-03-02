@@ -3,11 +3,13 @@
   align-items: center;
   justify-content: space-between;
   max-width: 1184px;
-  margin: 95px auto 20px;
+  margin: 86px auto 29px;
 }
 @media (max-width: 1200px) {
   .footer {
     width: calc(100% - 48px*2);
+    margin: 90px auto 25px;
+
   }
 }
 @media (max-width: 768px) {

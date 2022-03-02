@@ -1,7 +1,7 @@
 .intro__list {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 690px;
   font-family: Inter, Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: bold;
@@ -10,4 +10,9 @@
   list-style: none;
   padding: 0;
   margin: 0;
+}
+@media (max-width: 768px) {
+  .intro__list {
+    width: 100%;
+  }
 }
