@@ -4,16 +4,18 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: calc(100vw / 1.73);
+  height: calc(100vw / 1.95);
   margin: 0 auto;
   padding: 0;
-  background-image: url(../../image/cover-trains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+}
+@media (max-width: 1280px) {
+  .cover {
+    height: calc(100vw / 1.73);
+  }
 }
 @media (max-width: 1200px) {
   .cover {
+    max-width: 100%;
     height: calc(100vw / 1.6);
   }
 }
