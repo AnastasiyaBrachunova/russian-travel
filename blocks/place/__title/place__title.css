@@ -24,8 +24,9 @@
 }
 @media (max-width: 540px) {
   .place__title {
+    box-sizing: border-box;
+    padding-left: 16px;
     max-width: 100%;
-    margin: 0 16px;
     font-size: 32px;
     line-height: 109%;
     text-align: left;
