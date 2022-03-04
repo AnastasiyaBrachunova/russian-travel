@@ -29,7 +29,7 @@
   .photo-grid {
     max-width: 288px;
     grid-template-rows: repeat(12, 1fr);
-    grid-template-columns: 288px;
+    grid-template-columns: 100%;
     row-gap: 9px;
   }
 }
