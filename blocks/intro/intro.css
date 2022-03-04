@@ -3,24 +3,24 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
-  width: calc(100vw - 148px * 2);
+  width: calc(100% - 148px * 2);
   margin: 92px auto 89px;
 }
 @media (max-width: 1200px) {
   .intro {
-    width: calc(100vw - 48px * 2);
+    width: calc(100% - 48px * 2);
     margin: 93px 0 89px;
   }
 }
 @media (max-width: 768px) {
   .intro {
-    width: calc(100vw - 24px * 2);
+    width: calc(100% - 24px * 2);
     margin: 92px 0 87px;
   }
 }
 @media (max-width: 540px) {
   .intro {
-    width: calc(100vw - 16px * 2);
+    width: calc(100% - 16px * 2);
     margin: 63px 0 65px;
   }
 }
