@@ -8,3 +8,13 @@
   text-decoration: underline;
   color: #ffffff;
 }
+@media (max-width: 768px) {
+  .place__link {
+    font-size: calc(100vw / 42.5);
+  }
+}
+@media (max-width: 539px) {
+  .place__link {
+    font-size: 18px;
+  }
+}
